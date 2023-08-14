@@ -1,7 +1,7 @@
 # Documentation For Learning Mongo DB
 
 > [!NOTE]
-> Last Update: `Mon, 14 Aug, 20:57`
+> Last Update: `Mon, 14 Aug, 21:32`
 
 | Command / Method | Used For |
 | --------------- | --------------- |
