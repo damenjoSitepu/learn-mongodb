@@ -17,7 +17,7 @@
 | `db.nameOfTable.find().limit()` | Limits your collection result base on number of rows as first argument on the `limit()` method |
 | `-1`: Descending, `1`: Ascending | Additional notes for `sort()` functionality |
 | `db.nameOfTable.find({},{})` | The first argument of `find()` method contains object that will matched on the list of collections, and the second argument was referred to the what are columns that you want to show as the collection results |
-| `$eq` , `$ne` , `$in` , `$nin`  | List of complex equality operation when searching data using `find()` method | 
+| `$eq` , `$ne` , `$in` , `$nin` , `$exists` , `$or` , `$and`  | List of complex equality operation when searching data using `find()` method | 
 
 > [!NOTE]
 > Finding method equality are `case sensitive`
