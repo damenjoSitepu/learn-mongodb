@@ -12,6 +12,11 @@
 | `db.nameOfTable.insertOne({})` | insert one document to the collections |
 | `db.nameOfTable.insertMany({})` | insert more than one document to the collections |
 | `db.nameOfTable.find({})` | If you fill the find() method with an argument as object, the data will be searched as match as the key and value that you write within it |
+| `db.nameOfTable.findOne()` | Same as `find()` method |
+| `db.nameOfTable.updateOne()` | To update data, and retrieve two parameters |
+| `db.nameOfTable.updateMany()` | To update many data, and retrieve two parameters |
+| `db.nameOfTable.deleteOne()` | To delete data, and retrieve one parameter |
+| `db.nameOfTable.deleteMany()` | To delete many data, and retrieve one parameters |
 | `db.nameOfTable.find().skip()` | Skipping one or more rows base on argument that you've been inputted |
 | `db.nameOfTable.find().sort()` | Sorting the collections result base on object that you've been inputted on the `sort()` argument |
 | `db.nameOfTable.find().limit()` | Limits your collection result base on number of rows as first argument on the `limit()` method |
